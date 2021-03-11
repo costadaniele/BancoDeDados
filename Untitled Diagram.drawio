@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T15:13:28.581Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Safari/537.36" version="14.4.2" etag="rNm6M8eMma1AQ7O4Mf8r" type="github"><diagram id="Tyeb-swowZjbi4uTFRE5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-11T15:19:15.700Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Safari/537.36" etag="uwPGDAEmfKprJh_n7tFm" version="14.4.2" type="github">
+  <diagram id="Tyeb-swowZjbi4uTFRE5" name="Page-1">
+    <mxGraphModel dx="2170" dy="2482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wanM7t0UmkLAb008fTAh-1" value="Sócios" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-960" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-2" value="cd_Matricula (PK)&#xa;nm_Socio&#xa;ds_Endereco&#xa;cd_Telefone" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wanM7t0UmkLAb008fTAh-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-3" value="Sócio Evento" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-960" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-4" value="cd_Matricula (PK)&#xa;cd_Evento (PK)&#xa;nm_Evento&#xa;dt_Evento&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wanM7t0UmkLAb008fTAh-3">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-5" value="&lt;b&gt;1 FN - Atributo Dominante e Domínio Multivalorado&lt;/b&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-1085" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-6" value="Sócio Atividade" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-800" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-7" value="cd_Matricula (PK)&#xa;cd_Atividade (PK)&#xa;nm_Atividade&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wanM7t0UmkLAb008fTAh-6">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="391" y="-1020" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-9" value="&lt;b&gt;1 FN&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-1020" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-10" value="&lt;b&gt;2 FN - Dependência Parcial do Atributo Dominante&lt;/b&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="119" y="-690" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="125" y="-620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-12" value="&lt;b&gt;2 FN&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="-620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-13" value="Sócios" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="119" y="-560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-14" value="cd_Matricula (PK)&#xa;nm_Socio&#xa;ds_Endereco&#xa;cd_Telefone" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wanM7t0UmkLAb008fTAh-13">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-15" value="Sócio Evento" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-16" value="cd_Matricula (PK)&#xa;cd_Evento (PK)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wanM7t0UmkLAb008fTAh-15">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-17" value="Sócio Atividade" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-18" value="cd_Matricula (PK)&#xa;cd_Atividade (PK)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wanM7t0UmkLAb008fTAh-17">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-19" value="Atividade" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-400" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-20" value="cd_Atividade (PK)&#xa;nm_Atividade&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wanM7t0UmkLAb008fTAh-19">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-21" value="&lt;b&gt;3 FN - Dependência Funcional Transitiva&lt;/b&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="119" y="-200" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-22" value="Evento" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="334" y="-397" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-23" value="&lt;span&gt;cd_Evento (PK)&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;nm_Evento&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;dt_Evento&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;perimeterSpacing=1;" vertex="1" parent="wanM7t0UmkLAb008fTAh-22">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-24" value="&lt;div&gt;Informações_Sócios_Clube =&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;cd_Matricula&lt;/div&gt;&lt;div&gt;&lt;span&gt;+ nm_Socio&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;+ ds_Endereco&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;+ cd_Telefone&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{+ cd_Atividade&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ nm_Atividade}&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{+ cd_Evento&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ nm_Evento&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + dt_Evento}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-1020" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-1080" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-26" value="&lt;b&gt;Fluxo&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="-1080" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wanM7t0UmkLAb008fTAh-27" value="Tabelas já estão na Terceira Forma Normal, porque todos não possuem atributos com dependência funcional transitiva." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="119" y="-120" width="440" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
